@@ -1,8 +1,13 @@
 [package]
 name = "neos-7zbson"
-version = "0.1.0"
+version = "0.1.0-pre1"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+anyhow = "1.0.60"
+bson = "2.4.0"
+bytes = "1.2.1"
+object = "0.29.0"
+xz2 = "0.1.7"
